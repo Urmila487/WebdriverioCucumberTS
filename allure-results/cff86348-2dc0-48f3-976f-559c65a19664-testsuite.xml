@@ -1,0 +1,79 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1630572926447' stop='1630572926469'>
+    <name>The Internet header: As a user, I can check Internet header</name>
+    <title>The Internet header: As a user, I can check Internet header</title>
+    <test-cases>
+        <test-case start='1630572926449' status='passed' stop='1630572926453'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-93.0.4577.63'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1630572926454' status='broken' stop='1630572926462'>
+            <name>Given I am open the Internet page https://the-internet.herokuapp.com/</name>
+            <title>Given I am open the Internet page https://the-internet.herokuapp.com/</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-93.0.4577.63'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Step "I am open the Internet page https://the-internet.herokuapp.com/" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.</message>
+                <stack-trace>Step "I am open the Internet page https://the-internet.herokuapp.com/" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.
+                	at Feature(D:\WebdriverioCucumberTS\features\home.feature):1:1
+                	at Scenario(As a user, I can check Internet header):3:3
+                	at Step(I am open the Internet page &lt;homepageurl>):5:5
+                </stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1630572926462' status='broken' stop='1630572926465'>
+            <name>Then I should see a header message Welcome to the-internet</name>
+            <title>Then I should see a header message Welcome to the-internet</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-93.0.4577.63'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Step "I should see a header message Welcome to the-internet" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.</message>
+                <stack-trace>Step "I should see a header message Welcome to the-internet" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.
+                	at Feature(D:\WebdriverioCucumberTS\features\home.feature):1:1
+                	at Scenario(As a user, I can check Internet header):3:3
+                	at Step(I should see a header message &lt;headermessage>):6:5
+                </stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1630572926465' status='passed' stop='1630572926467'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-93.0.4577.63'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

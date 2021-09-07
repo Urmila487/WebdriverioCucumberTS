@@ -1,0 +1,170 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1630931095417' stop='1630931097647'>
+    <name>Chai Page: Test chai form</name>
+    <title>Chai Page: Test chai form</title>
+    <test-cases>
+        <test-case start='1630931095420' status='passed' stop='1630931095431'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-93.0.4577.63'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1630931095432' status='passed' stop='1630931097532'>
+            <name>Given I am on practice page "http://www.practiceselenium.com/practice-form.html"</name>
+            <title>Given I am on practice page "http://www.practiceselenium.com/practice-form.html"</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-93.0.4577.63'/>
+            </parameters>
+            <steps>
+                <step start='1630931095444' status='passed' stop='1630931097355'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='948edd31-4b90-4826-bfda-324e975e9993-attachment.json' type='application/json' size='65'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1630931097356' status='passed' stop='1630931097526'>
+                    <name>POST /session/:sessionId/window/maximize</name>
+                    <title>POST /session/:sessionId/window/maximize</title>
+                    <attachments>
+                        <attachment title='Response' source='711e11cd-7025-40ba-bfd7-c568fb2e1729-attachment.json' type='application/json' size='58'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1630931097532' status='broken' stop='1630931097634'>
+            <name>Then I validate page header "Practice Form"</name>
+            <title>Then I validate page header "Practice Form"</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-93.0.4577.63'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>RangeError: Maximum call stack size exceeded</message>
+                <stack-trace>RangeError: Maximum call stack size exceeded
+                    at D:\WebdriverioCucumberTS\features\pageobjects\register.page.ts:23:9
+                    at new Promise (&lt;anonymous>)
+                    at __awaiter (D:\WebdriverioCucumberTS\features\pageobjects\register.page.ts:19:12)
+                    at ChaiRegister.getHeader (D:\WebdriverioCucumberTS\features\pageobjects\register.page.ts:137:16)
+                    at ChaiRegister.&lt;anonymous> (D:\WebdriverioCucumberTS\features\pageobjects\register.page.ts:28:21)
+                    at step (D:\WebdriverioCucumberTS\features\pageobjects\register.page.ts:48:23)
+                    at Object.next (D:\WebdriverioCucumberTS\features\pageobjects\register.page.ts:29:53)
+                    at D:\WebdriverioCucumberTS\features\pageobjects\register.page.ts:23:71
+                    at new Promise (&lt;anonymous>)
+                    at __awaiter (D:\WebdriverioCucumberTS\features\pageobjects\register.page.ts:19:12)
+                    at ChaiRegister.getHeader (D:\WebdriverioCucumberTS\features\pageobjects\register.page.ts:137:16)
+                    at ChaiRegister.&lt;anonymous> (D:\WebdriverioCucumberTS\features\pageobjects\register.page.ts:28:21)
+                    at step (D:\WebdriverioCucumberTS\features\pageobjects\register.page.ts:48:23)
+                    at Object.next (D:\WebdriverioCucumberTS\features\pageobjects\register.page.ts:29:53)
+                    at D:\WebdriverioCucumberTS\features\pageobjects\register.page.ts:23:71
+                    at new Promise (&lt;anonymous>)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1630931097634' status='pending' stop='1630931097636'>
+            <name>When I enter firstname Urmila and lastname Vadi</name>
+            <title>When I enter firstname Urmila and lastname Vadi</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-93.0.4577.63'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1630931097637' status='pending' stop='1630931097637'>
+            <name>And I select gender Female years 3 favourite chai Red Tea and reason Harmless Addiction</name>
+            <title>And I select gender Female years 3 favourite chai Red Tea and reason Harmless Addiction</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-93.0.4577.63'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1630931097638' status='pending' stop='1630931097638'>
+            <name>And I select continent Europe and commands Wait Commands</name>
+            <title>And I select continent Europe and commands Wait Commands</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-93.0.4577.63'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1630931097639' status='pending' stop='1630931097639'>
+            <name>And I click on submit button</name>
+            <title>And I click on submit button</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-93.0.4577.63'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1630931097640' status='pending' stop='1630931097640'>
+            <name>Then I validate page header "We're passionate about tea."</name>
+            <title>Then I validate page header "We're passionate about tea."</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-93.0.4577.63'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1630931097641' status='passed' stop='1630931097643'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-93.0.4577.63'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
